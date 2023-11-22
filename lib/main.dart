@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-//Main function to start building Flutter App
+//Main function to start building Flutter App first
 void main() {
   runApp(
     MaterialApp(
