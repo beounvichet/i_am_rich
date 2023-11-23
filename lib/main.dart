@@ -4,9 +4,25 @@ import 'package:flutter/material.dart';
 void main() {
   runApp(
     MaterialApp(
-      home: Center(
-        child: Text('Hello ME'),
+      home: Scaffold(
+        appBar: AppBar(
+          title: Center(
+            child: Text(
+              'Hello',
+              style: TextStyle(color: Colors.white),
+            ),
+          ),
+          backgroundColor: Colors.blue,
+        ),
+        backgroundColor: Colors.blueGrey[900],
+        body: Center(
+          child: Image(
+              image: NetworkImage(
+                  'https://www.appsdeveloperblog.com/wp-content/uploads/2021/01/flutter-debug-banner.jpg')),
+        ),
+
       ),
+      debugShowCheckedModeBanner: false,
     ),
   );
 }
