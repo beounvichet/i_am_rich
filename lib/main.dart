@@ -17,10 +17,9 @@ void main() {
         backgroundColor: Colors.blueGrey[900],
         body: Center(
           child: Image(
-              image: NetworkImage(
-                  'https://www.appsdeveloperblog.com/wp-content/uploads/2021/01/flutter-debug-banner.jpg')),
+            image: AssetImage('images/dimond.png'),
+          ),
         ),
-
       ),
       debugShowCheckedModeBanner: false,
     ),
